@@ -18,5 +18,5 @@ alias ...="cd ../.."
 alias .='echo $PWD'
 
 alias cd~='cd $HOME'
-alias ~~"cd $HOME"
+alias ~~="cd $HOME"
 alias home="cd $HOME"
