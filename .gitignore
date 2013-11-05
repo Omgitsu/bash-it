@@ -8,3 +8,5 @@ custom/*
 plugins/custom.plugins.bash
 *.swp
 .*.un~
+*.sublime-project
+*.sublime-workspace
