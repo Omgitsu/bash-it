@@ -23,8 +23,8 @@ export TEMP=$HOME/tmp
 # virtualenv wrapper
 export WORKON_HOME=$HOME/.environments
 export VIRTUALENVWRAPPER_TMPDIR=$HOME/.environments/tmp
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-source /usr/local/share/python/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+source /usr/local/bin/virtualenvwrapper.sh
 
 #virtualenv.django
 export PROJECT_HOME=$HOME/Dropbox/Development
