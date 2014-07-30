@@ -1,6 +1,17 @@
 cite about-plugin
 about-plugin 'miscellaneous tools'
 
+whereis ()
+{
+    about 'finds a file suppressing warnings'
+    param '1: starting directory'
+    param '2: filename to search for'
+    group 'base'
+    example '$ whereis / foo'
+    example '$ whereis . file_in_this_directory'
+    find "${1}" -name "${2}" 2>/dev/null
+}
+
 ips ()
 {
     about 'display all ip addresses for this host'

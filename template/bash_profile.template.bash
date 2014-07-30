@@ -11,7 +11,7 @@ export BASH_IT=$HOME/.bash_it
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
-export BASH_IT_THEME='bobby'
+export BASH_IT_THEME='omgitsu'
 
 # Your place for hosting Git repos. I use this for private repos.
 export GIT_HOSTING='git@git.domain.com'
@@ -26,6 +26,8 @@ export NGINX_PATH='/opt/nginx'
 # Don't check mail when opening terminal.
 unset MAILCHECK
 
+# make sure to set the path
+export PATH=/usr/local/bin:$PATH # fix the path
 
 # Change this to your console based IRC client of choice.
 
