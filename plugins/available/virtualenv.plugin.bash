@@ -3,7 +3,7 @@
 cite about-plugin
 about-plugin 'virtualenvwrapper helper functions'
 
-[[ `which virtualenvwrapper.sh` ]] && . virtualenvwrapper.sh
+# [[ `which virtualenvwrapper.sh` ]] && . virtualenvwrapper.sh
 
 
 function mkvenv {
