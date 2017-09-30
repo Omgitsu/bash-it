@@ -32,4 +32,7 @@ alias reloadbash='source ~/.bash_profile'
 
 alias dev='cd $HOME/Dropbox/Development'
 alias dropbox='cd $HOME/Dropbox/'
+alias omg='cd $HOME/'
+alias ddev='cd $HOME/Development'
+alias tt='tabtitle '
 
