@@ -35,4 +35,6 @@ alias dropbox='cd $HOME/Dropbox/'
 alias omg='cd $HOME/'
 alias ddev='cd $HOME/Development'
 alias tt='tabtitle '
+aliad title='tabtitle '
 
+alias reloadui='reload $HOME/.bash_profile'

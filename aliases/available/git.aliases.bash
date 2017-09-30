@@ -29,6 +29,7 @@ alias gexport='git archive --format zip --output'
 alias gdel='git branch -D'
 alias gmu='git fetch origin -v; git fetch upstream -v; git merge upstream/master'
 alias gll='git log --graph --pretty=oneline --abbrev-commit'
+alias gitac='git add . && git commit -am '
 
 case $OSTYPE in
   linux*)
